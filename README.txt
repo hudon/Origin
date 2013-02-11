@@ -4,7 +4,7 @@ The operating system was developed for LPC1768 based MCB1700 microcontroller boa
 using the Keil uVision application as an IDE/Simulator for debugging purposes.
 
 The RTX provides a basic multiprogramming environment with 5 priority levels, preemption,
-simple memory management, message-based inter-process communication, a basic timing service, system console I/O and debugging support. Our RTX is suitable for embedded computers which operate in real time. A cooperative, non-malicious software environment is assumed. Applications and non-kernel RTX processes execute in the unprivileged level of LPC1768. The RTX kernel will execute in the privileged level. For both kernel and non-kernel code, the MSP (Main Stack Pointer) is used to track execution (as opposed to the PSP (Process Stack Pointer).
+simple memory management, message-based inter-process communication, a basic timing service, system console I/O and debugging support. Our RTX is suitable for embedded computers which operate in real time. A cooperative, non-malicious software environment is assumed. Applications and non-kernel RTX processes execute in the unprivileged level of LPC1768. The RTX kernel will execute in the privileged level. For both kernel and non-kernel code, the MSP (Main Stack Pointer) is used to track execution (as opposed to the Process Stack Pointer (PSP)).
 
 
 
