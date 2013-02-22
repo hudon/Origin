@@ -1,4 +1,4 @@
-This project is the real-time operating system, developed by 
+This project is a real-time operating system developed by 
 
 * [Greta Cutulenco](https://github.com/gretac)
 * [Robert Elder](https://github.com/robertelder)
